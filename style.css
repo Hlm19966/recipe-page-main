@@ -1,22 +1,24 @@
-
-
-
-
-
-
-
-
+:root {
+    --default-font-familiy: "Outfit", sans-serif;
+    --second-font-family:  "Young Serif", serif;;
+}
 body{
     font-family: "Outfit", sans-serif;
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 900px;
 }
 
 
 
-
-
-
-h1 {
-    background-color: 
-    font-family: "Young Serif", serif;
+.hero {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 15px;
 }
